@@ -1352,7 +1352,7 @@ ul.icons {
     ul.icons li .icon {
       color: inherit; }
       ul.icons li .icon:before {
-        font-size: 1.25em; }
+        font-size: 2em; }
 
 /* Contact */
 ul.contact {
@@ -1766,7 +1766,9 @@ button,
       right: 0;
       width: calc(100% + 6em); }
     .posts article > :last-child {
-      margin-bottom: 0; }
+      margin-bottom: 0; 
+     padding-top: 20px;    
+    }
     .posts article .image {
       display: block;
       margin: 0 0 2em 0; }
@@ -1940,8 +1942,7 @@ button,
     width: 26em; }
     #sidebar > .inner > * {
       border-bottom: solid 2px rgba(210, 215, 217, 0.75);
-      margin: 0 0 3.5em 0;
-      padding: 0 0 3.5em 0; }
+      margin: 0 0 3.5em 0;}
       #sidebar > .inner > * > :last-child {
         margin-bottom: 0; }
       #sidebar > .inner > *:last-child {
